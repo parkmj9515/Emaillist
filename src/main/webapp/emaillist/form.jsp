@@ -14,7 +14,8 @@
 			아래 항목을 기입하고 등록 버튼을 클릭하세요.
 		</p>
 
-		<form action="<%= request.getContextPath() %>/insert.jsp" 
+		<form 
+			action="<%= request.getContextPath() %>/emaillist/insert.jsp" 
 			method="POST">
 			<label for="ln">성</label>
 			<input type="text" name="ln" value=""><br />
@@ -28,7 +29,7 @@
 		</form>
 
 		<p>
-			<a href="<%= request.getContextPath() %>">목록</a>
+			<a href="<%= request.getContextPath() %>/emaillist/">목록</a>
 		</p>
 	</body>
 
